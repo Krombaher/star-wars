@@ -1,0 +1,41 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.container {
+  max-width: 1420px;
+  padding: 50px 15px;
+  margin: 0 auto;
+}
+
+.app-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+
+  h1 {
+    font-size: 25px;
+  }
+}
+
+.character-list {
+  margin-bottom: 20px;
+}
+
+.ant-pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.character-card {
+  padding: 5px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.character-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
