@@ -4,7 +4,7 @@ export const NewTitle = () => {
   return (
     <>
       <div>NewTitle</div>
-      <button>Click</button>
+      <button>Click add</button>
     </>
   );
 };
