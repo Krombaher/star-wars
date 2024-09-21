@@ -5,6 +5,7 @@ export const NewTitle = () => {
     <>
       <div>NewTitle</div>
       <p>this is new title</p>
+      <button>Click</button>
     </>
   );
 };
