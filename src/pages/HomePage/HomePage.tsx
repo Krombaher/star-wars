@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { useGetPeopleQuery } from '../../api/StarWarsApi';
 import { SearchBar } from './components/SearchBar';
 import { CharactersList } from './components/СharactersList';
+import { NewTitle } from './components/NewTitle';
 
 export const HomePage = () => {
   const [currentPage, setCurrentPage] = useState(1);
@@ -20,6 +21,7 @@ export const HomePage = () => {
 
   return (
     <>
+      <NewTitle />
       <SearchBar
         searchQuery={searchQuery}
         hasResults={hasResults || false}
